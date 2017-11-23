@@ -1,0 +1,137 @@
+@charset "UTF-8";
+@font-face {
+	font-family: 'titles';
+	src: url(_fonts/Cormorant_Garamond/CormorantGaramond-SemiBold);
+}
+body {
+	background: rgb(243, 243, 243);
+}
+
+div.card{
+	display: inline-block;
+	position: relative;
+	width: 270px;
+	height: 440px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	left: 25%;
+	top: 50px;
+	transform: translate(-50%,0);
+	margin: 0 20px 0 0;
+}
+img#praia{
+	position: relative;
+	width: 130px;
+	height: 130px;
+	left: 50%;
+	top: 60px;
+	transform: translate(-50%,0);
+}
+img#montanha{
+	position: relative;
+	width: 140px;
+	height: 130px;
+	left: 50%;
+	top: 60px;
+	transform: translate(-50%,0);
+}
+img#floresta{
+	position: relative;
+	width: 130px;
+	height: 130px;
+	left: 50%;
+	top: 60px;
+	transform: translate(-50%,0);
+}
+p.title {
+	position: relative;
+	text-align: center;
+	top: 50px;
+	font-size: 20px;
+	font-family: titles;
+}
+span{
+	position: relative;
+	display: inline-block;
+	margin: 40px 30px 40px 30px;
+	font-family: arial;
+	font-size: 10.5px;
+	text-align: center;
+	color: rgb(150, 158, 161);
+}
+button{
+	position: relative;
+	left:50%;
+	transform: translate(-50%, 0);
+	padding: 8px 35px 8px 35px;
+	border-radius: 50px;
+	border: none;
+	box-shadow: 0 0 20px buttonface;
+	color: white;
+}
+button#amarelo {
+	/*position: relative;
+	left:50%;
+	transform: translate(-50%, 0);
+	padding: 8px 35px 8px 35px;
+	border-radius: 50px;
+	border: none;
+	box-shadow: 0 0 10px buttonface;
+	color: white;*/
+	background-color: rgb(243, 178, 62);
+}
+button#roxo {
+	background-color: rgb(129, 116, 186);
+}
+button.verde {
+	background-color: rgb(63, 109, 132);
+}
+div.slider span{
+	position: relative;
+	height: 5px;
+	width: 5px;
+	border-radius: 100%;
+	background: rgb(150, 159, 164);
+	left: 85px;
+	top:-20px;
+
+}
+span#slider1 {
+	/*position: relative;
+	height: 5px;
+	width: 5px;
+	border-radius: 100%;
+	background: rgb(150, 159, 164);
+	left: 80px;
+	top:-20px;*/
+}
+span#slider2 {
+	background: rgb(230,234,235);
+	left: 31px;
+}
+span#slider3 {
+	background: rgb(230,234,235);
+	left: -21px;
+}
+span#slider4 {
+	background: rgb(230,234,235);
+}
+span#slider5 {
+	background: rgb(150, 159, 164);
+	left: 31px;
+}
+span#slider6 {
+	background: rgb(230,234,235);
+	left: -21px;
+}
+span#slider7 {
+	background: rgb(230,234,235);
+}
+span#slider8 {
+	background: rgb(230,234,235);
+	left: 31px;
+}
+span#slider9 {
+	background: rgb(150, 159, 164);
+	left: -21px;
+}
