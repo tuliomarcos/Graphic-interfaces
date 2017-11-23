@@ -2,9 +2,11 @@ body.demo {
 	background: #f3f3f3;
 	margin: 0;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 
-body.demo div {
-	background: red;
+@media (min-width: 420px ) {
+	body.demo {
+		flex-direction: row;
+	}
 }
