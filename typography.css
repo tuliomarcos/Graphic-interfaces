@@ -1,10 +1,8 @@
-@font-face {
-	font-family: 'titles';
-	src: url(_fonts/Cormorant_Garamond/CormorantGaramond-SemiBold);
-}
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:700');
 
 div.card h1 {
-	font-family: titles;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 22px;
 }
 
 div.card p {
