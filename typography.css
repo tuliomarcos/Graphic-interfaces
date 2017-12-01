@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'titles';
+	src: url(_fonts/Cormorant_Garamond/CormorantGaramond-SemiBold);
+}
+
+div.card h1 {
+	font-family: titles;
+}
+
+div.card p {
+	font-family: helvetica, sans-serif;
+}
