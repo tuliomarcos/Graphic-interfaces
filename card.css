@@ -7,6 +7,11 @@
 	margin: 1em;
 	max-width: 170px;
 	text-align: center;
+	transition: 1s;
+}
+
+.card:hover {
+	box-shadow: 0 2px 16px rgba(0, 0, 0, .5); 
 }
 
 .card h1 {
@@ -22,7 +27,12 @@
 	line-height: 1.6em;
 }
 
+.card button:hover {
+	box-shadow: 0 2px 16px rgba(0, 0, 0, .5); 
+}
+
 .card button {
+	transition: .5s;
 	border: none;
 	padding: 8px 30px;
 	color: #fff;
